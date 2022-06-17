@@ -8,7 +8,7 @@ public class Main {
         PlayingField playingField = new PlayingField(windowSizeX, windowSizeY);
         playingField.load();
 
-        Window window = new Window("NIGGER",playingField, windowSizeX, windowSizeY);
+        Window window = new Window("Jumpero",playingField, windowSizeX, windowSizeY, playingField);
 
     }
 }
